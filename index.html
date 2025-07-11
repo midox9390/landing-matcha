@@ -3,60 +3,61 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Landing Matcha</title>
+  <title>Landing Matcha Slim</title>
   <style>
-    body {
-      margin: 0;
+    body, html {
+      margin: 0; padding: 0; height: 100%;
       font-family: Arial, sans-serif;
-      background-color: #f0f0f0;
-    }
-    .container {
-      display: flex;
-      background-color: #f0f0f0;
-      padding: 20px;
-      gap: 20px;
-      max-width: 1200px;
-      margin: auto;
-    }
-    .block {
-      flex: 1;
-      background-color: #f0f0f0;
+      background: #fff;
       display: flex;
       flex-direction: column;
       align-items: center;
-      border: 1px solid #ccc;
-      border-radius: 8px;
-      padding: 10px;
     }
-    .block img {
+    .container {
+      max-width: 600px;
       width: 100%;
-      height: 300px;
-      object-fit: cover;
-      border-radius: 8px;
-    }
-    .block h2 {
-      margin: 15px 0 10px;
-    }
-    .block p {
+      padding: 20px;
+      box-sizing: border-box;
       text-align: center;
-      padding: 0 10px 15px;
+    }
+    img {
+      width: 100%;
+      height: auto;
+      border-radius: 10px;
+      margin-bottom: 20px;
+    }
+    h1 {
+      margin-bottom: 15px;
+      font-size: 28px;
+      color: #333;
+    }
+    p {
+      font-size: 16px;
+      color: #555;
+      margin-bottom: 25px;
+    }
+    a.cta {
+      display: inline-block;
+      background-color: #2f9e44;
+      color: white;
+      text-decoration: none;
+      padding: 15px 30px;
+      border-radius: 8px;
+      font-weight: bold;
+      font-size: 18px;
+      transition: background-color 0.3s ease;
+    }
+    a.cta:hover {
+      background-color: #23733a;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <div class="block">
-      <img src="https://via.placeholder.com/600x300.png?text=Image+1" alt="Image 1" />
-      <h2>Bloc 1</h2>
-      <p>Contenu texte du premier bloc.</p>
-    </div>
-    <div class="block">
-      <img src="https://via.placeholder.com/600x300.png?text=Image+2" alt="Image 2" />
-      <h2>Bloc 2</h2>
-      <p>Contenu texte du deuxième bloc.</p>
-    </div>
+    <img src="https://my.adcombo.com/offer_preview/38136/Matcha_Slim_Costa_Rica_2_1.jpg" alt="Matcha Slim" />
+    <h1>Découvrez Matcha Slim - Le secret pour mincir naturellement</h1>
+    <p>Profitez d’une offre exclusive et transformez votre silhouette avec Matcha Slim, le complément naturel à base de thé vert matcha.</p>
+    <a href="https://my.adcombo.com/offer/38136" class="cta" target="_blank" rel="noopener">Commander Maintenant</a>
   </div>
 </body>
 </html>
-
-
